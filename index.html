@@ -1,0 +1,315 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+   <meta charset="UTF-8">
+   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+   <!--=============== FAVICON ===============-->
+   <link rel="shortcut icon" href="assets/img/favicon.png" type="image/x-icon">
+
+   <!--=============== REMIXICONS ===============-->
+   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/remixicon/3.5.0/remixicon.css">
+
+   <!--=============== SWIPER CSS ===============-->
+   <link rel="stylesheet" href="/assets/css/swiper-bundle.min.css">
+
+   <!--=============== CSS ===============-->
+   <!-- <link rel="stylesheet" href="assets/css/styles.css"> -->
+   <!-- <link rel="stylesheet" href=""> -->
+   <link rel="stylesheet" href="output.css">
+
+   <title>Responsive headphones website - Suraj adde</title>
+</head>
+
+<body>
+   <!--==================== HEADER ====================-->
+   <header class="header fixed w-full bg-transparent top-0 left-0 z-z_fixed" id="header">
+      <nav class="nav container__1 h-header_height flex  justify-between items-center">
+         <a href="#" class="nav__logo text-h2_font_size font-font_semi_bold text-first_color">JBL</a>
+
+         <div class="nav__menu" id="nav-menu">
+            <ul class="nav__list text-center flex flex-col gap-y-[2.5rem]">
+               <li class="nav__item">
+                  <a href="#home" class="nav__link active-link">Home</a>
+               </li>
+
+               <li class="nav__item">
+                  <a href="#about" class="nav__link">About</a>
+               </li>
+
+               <li class="nav__item">
+                  <a href="#favorite" class="nav__link">Favorites</a>
+               </li>
+
+               <li class="nav__item">
+                  <a href="#model" class="nav__link">Models</a>
+               </li>
+            </ul>
+
+            <!--! Close button -->
+            <div
+               class="nav__close flex text-[1.5rem] text-white_color cursor-pointer absolute top-[1rem] right-[1.5rem]"
+               id="nav-close">
+               <i class="ri-close-line"></i>
+            </div>
+         </div>
+
+         <!--! Toggle button -->
+         <div class="nav__toggle flex text-[1.5rem] text-white_color cursor-pointer" id="nav-toggle">
+            <i class="ri-menu-line"></i>
+         </div>
+      </nav>
+   </header>
+
+   <!--==================== MAIN ====================-->
+   <main class="main">
+      <!--==================== HOME ====================-->
+      <section class="home section" id="home">
+         <div class="home__container container__1 grid__1 relative pt-[7rem] pb-[1rem] gap-y-[2.5rem]">
+            <div class="home__content relative grid justify-self-center">
+               <img src="/assets/img/home-img.png" alt="image" class="home__img w-[220px]">
+
+               <h1
+                  class="home__title text-biggest_font_size flex gap-x-[.25rem] text-first_color absolute top-[-2rem] justify-self-center">
+                  <span>J</span>
+                  <span>B</span>
+                  <span>L</span>
+               </h1>
+
+               <div class="home__tooltip absolute top-[-.5rem] right-[1.5rem]">
+                  <img src="/assets/img/tooltip-right.svg" alt="" class="home__tooltip-img w-[60px]">
+                  <span
+                     class="home__tooltip-text bg-gradient_color py-[.25rem] px-[.75rem] font-font_medium rounded-[4rem] text-small_font_size absolute whitespace-nowrap">$150</span>
+               </div>
+            </div>
+
+            <a href="#" class="home__button button justify-self-center">
+               Buy Now <i class="ri-play-circle-fill"></i>
+            </a>
+
+            <div class="home__social grid justify-items-center gap-y-[6rem] absolute top-[9rem] left-[-1.5rem]">
+               <span class="home__social-text relative rotate-[90deg] text-small_font_size font-font_medium">Follow
+                  Us</span>
+
+               <div class="home__socail-links grid gap-y-[.75rem]">
+                  <a href="https://www.instagram.com/" target="_blank"
+                     class="home__social-link text-[1.25rem] text-text_color">
+                     <i class="ri-instagram-fill"></i>
+                  </a>
+                  <a href="https://www.facebook.com/" target="_blank"
+                     class="home__social-link text-[1.25rem] text-text_color">
+                     <i class="ri-facebook-circle-fill"></i>
+                  </a>
+                  <a href="https://www.youtube.com/" target="_blank"
+                     class="home__social-link text-[1.25rem] text-text_color">
+                     <i class="ri-youtube-fill"></i>
+                  </a>
+               </div>
+            </div>
+         </div>
+      </section>
+
+      <!--==================== ABOUT ====================-->
+      <section class="about section" id="about">
+         <div class="about__container container__1 grid__1 gap-y-[3.5rem] text-center">
+            <div class="about__data">
+               <h2 class="section__title">
+                  MORE ABOUT US
+               </h2>
+
+               <p class="about__description mb-[2.5rem]">
+                  Enjoy award-winning JBL sound with
+                  wireless listening freedom and a sleek,
+                  streamlined design with comfortable
+                  cushioned earcups that deliver premium
+                  playback for the user.
+               </p>
+
+               <a href="#" class="button">
+                  Know More <i class="ri-information-fill"></i>
+               </a>
+            </div>
+
+            <img src="/assets/img/about-img.png" alt="image" class="about__img w-[280px] justify-self-center">
+         </div>
+      </section>
+
+      <!--==================== FAVORITE ====================-->
+      <section class="favorite section" id="favorite">
+         <h2 class="section__title">
+            CHOOSE YOUR FAVORITE
+         </h2>
+
+         <div class="favorite__container pt-[2rem]">
+            <div class="favorite__swipper swiper">
+               <div class="swiper-wrapper">
+                  <article class="favorite__article swiper-slide">
+                     <img src="/assets/img/favorite-1.png" alt="image" class="favorite__img">
+                     <span class="favorite__model">Black Model</span>
+                  </article>
+
+                  <article class="favorite__article swiper-slide">
+                     <img src="/assets/img/favorite-2.png" alt="image" class="favorite__img">
+                     <span class="favorite__model">White Model</span>
+                  </article>
+
+                  <article class="favorite__article swiper-slide">
+                     <img src="/assets/img/favorite-3.png" alt="image" class="favorite__img">
+                     <span class="favorite__model">Red Model</span>
+                  </article>
+
+                  <article class="favorite__article swiper-slide">
+                     <img src="/assets/img/favorite-4.png" alt="image" class="favorite__img">
+                     <span class="favorite__model">Teal Model</span>
+                  </article>
+               </div>
+            </div>
+         </div>
+      </section>
+
+      <!--==================== MODEL ====================-->
+      <section class="model section" id="model">
+         <h2 class="section__title">
+            MODEL SPECIFICATIONS
+         </h2>
+
+         <div class="model__container container__1 grid__1 pt-[2rem] gap-y-[2.5rem]">
+            <div class="model__content relative justify-self-center ">
+               <img src="/assets/img//model-img.png" alt="image" class="model__img w-[280px]">
+
+               <div class="model__tooltip model__tooltip-1">
+                  <img src="/assets/img/tooltip-right.svg" alt="" class="model__tooltip-img">
+                  <span class="model__tooltip-text">Best Comfort</span>
+               </div>
+
+               <div class="model__tooltip model__tooltip-2">
+                  <img src="/assets/img/tooltip-right.svg" alt="" class="model__tooltip-img">
+                  <span class="model__tooltip-text">Easy Adjustment</span>
+               </div>
+
+               <div class="model__tooltip model__tooltip-3">
+                  <img src="/assets/img/tooltip-right.svg" alt="" class="model__tooltip-img">
+                  <span class="model__tooltip-text">Fast Charge</span>
+               </div>
+
+               <div class="model__tooltip model__tooltip-4">
+                  <img src="/assets/img/tooltip-right.svg" alt="" class="model__tooltip-img">
+                  <span class="model__tooltip-text">Custom Audio</span>
+               </div>
+            </div>
+            <a href="#" class="model__button button justify-self-center">
+               Buy Now <i class="ri-play-circle-fill"></i>
+            </a>
+         </div>
+      </section>
+
+      <!--==================== SPONSOR ====================-->
+      <section class="sponsor section">
+         <div class="sponsor__container container__1 grid__1 ">
+            <img src="/assets/img/sponsor-1.png" alt="image" class="sponsor__img">
+            <img src="/assets/img/sponsor-2.png" alt="image" class="sponsor__img">
+            <img src="/assets/img/sponsor-3.png" alt="image" class="sponsor__img">
+            <img src="/assets/img/sponsor-4.png" alt="image" class="sponsor__img">
+         </div>
+      </section>
+   </main>
+
+   <!--==================== FOOTER ====================-->
+   <footer class="footer py-[2rem] overflow-hidden">
+      <div class="footer__container container__1 grid__1 gap-y-[4rem]">
+         <div>
+            <a href="#" class="footer__logo text-h2_font_size font-font_semi_bold text-first_color">JBL</a>
+         </div>
+         <div class="footer__data grid__1">
+
+            <div>
+               <h3 class="footer__title">Products</h3>
+
+               <ul class="footer__links">
+                  <li>
+                     <a href="#" class="footer__link">Headphones</a>
+                  </li>
+
+                  <li>
+                     <a href="#" class="footer__link">Earphones</a>
+                  </li>
+
+                  <li>
+                     <a href="#" class="footer__link">Earbuds</a>
+                  </li>
+                  
+                  <li>
+                     <a href="#" class="footer__link">Accesories</a>
+                  </li>
+               </ul>
+            </div>
+
+            <div>
+               <h3 class="footer__title">Support</h3>
+
+               <ul class="footer__links">
+                  <li>
+                     <a href="#" class="footer__link">Product Help</a>
+                  </li>
+
+                  <li>
+                     <a href="#" class="footer__link">Register</a>
+                  </li>
+
+                  <li>
+                     <a href="#" class="footer__link">Updates</a>
+                  </li>
+
+                  <li>
+                     <a href="#" class="footer__link">Provides</a>
+                  </li>
+               </ul>
+            </div>
+
+            <div class="footer__group">
+               <form action="" class="footer__form">
+                  <input type="email" placeholder="Email" class="footer__input">
+                  <button class="footer__button button">
+                     Subscribe <i class="ri-send-plane-fill"></i>
+                  </button>
+               </form>
+
+               <div class="footer__social flex justify-center gap-x-[1rem]">
+                  <a href="https://www.instagram.com/" target="_blank" class="footer__social-link">
+                     <i class="ri-instagram-fill"></i>
+                  </a>
+
+                  <a href="https://www.facebook.com/" target="_blank" class="footer__social-link">
+                     <i class="ri-facebook-circle-fill"></i>
+                  </a>
+
+                  <a href="https://www.youtube.com/" target="_blank" class="footer__social-link">
+                     <i class="ri-youtube-fill"></i>
+                  </a>
+               </div>
+            </div>
+         </div>
+      </div>
+
+      <span class="footer__copy block mt-[5rem] text-small_font_size text-center">
+         &#169; All Rights Reserved By Suraj adde   
+      </span>
+   </footer>
+
+   <!--========== SCROLL UP ==========-->
+   <a href="#" class="scrollup fixed right-[1rem] bottom-[-50%] bg-gradient_color inline-flex text-white_color text-[1.25rem]  px-[6px] py-[1px] rounded-[.25rem] z-z_tooltip" id="scroll-up">
+      <i class="ri-arrow-up-s-line"></i>
+   </a>
+
+   <!--=============== SCROLLREVEAL ===============-->
+   <script src="/assets/js/scrollreveal.min.js"></script>
+
+   <!--=============== SWIPER JS ===============-->
+   <script src="/assets/js/swiper-bundle.min.js"></script>
+
+   <!--=============== MAIN JS ===============-->
+   <script src="assets/js/main.js"></script>
+</body>
+
+</html>

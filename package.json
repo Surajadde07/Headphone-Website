@@ -1,0 +1,15 @@
+{
+  "name": "headphone-website",
+  "version": "1.0.0",
+  "description": "- Responsive Headphones Website Design Using HTML CSS & JavaScript\r - Contains animations when scrolling.\r - Smooth scrolling in each section.\r - Developed first with the Mobile First methodology, then for desktop.\r - Compatible with all mobile devices and with a beautiful and pleasant user interface.",
+  "main": "index.js",
+  "scripts": {
+    "watch": "npx tailwindcss -i ./input.css -o ./output.css --watch"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "tailwindcss": "^3.4.1"
+  }
+}
